@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'IOOS HF Radar' });
+  res.render('index', { title: 'IOOS Animal Telemetry Network' });
 });
 
 module.exports = router;

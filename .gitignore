@@ -1,0 +1,7 @@
+*.swp
+node_modules/
+npm-debug.log
+public/build/
+public/lib/
+bower_components/
+.vscode
