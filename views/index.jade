@@ -10,7 +10,7 @@ block content
             img.img-responsive(src="/images/atn.png", alt="Animal Telemetry Network")
       .col-md-9
         .caption.caption-header
-          h3 IOOS Animal Telemetry Network
+          h3 US Animal Telemetry Network
           p.
             The ATN data management vision includes a regionally distributed data collection, management and sharing capacity that builds on and integrates as many existing data links as possible to enable local and regional needs to be addressed. At the heart of this system is a centralized data assembly center (DAC) currently located at the Stanford U. Hopkins Marine Station.  This DAC is a community resource where regional telemetry data is aggregated in a single place and one-stop-shopping is provided for access to all U.S. national animal telemetry data. The DAC both serves national stakeholder needs effectively as well as enables cost/time savings to principal investigators.
 
@@ -19,7 +19,7 @@ block content
       .col-md-12
         a(href="http://oceanview.pfeg.noaa.gov/ATN/", target="_blank")
           #helper-overlay
-            p Click here to see the map
+            p Click here to enter the portal
           img.img-responsive(src="/images/screenshot.jpg", alt="ATN screenshot", style="width: 100%;")
     .row.caption
       .col-md-12
@@ -28,16 +28,16 @@ block content
       .section-heading
         h1 ATN Resources
     .row
-      .col-sm-6.col-md-4
-        ul.nav.nav-pills.glider-resources
-          li.dropdown(role="presentation")
-            a#drop2.dropdown-toggle(href="#", data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false")
-              | Data Visualization &amp; Access
-            ul#menu2.dropdown-menu(aria-labelledby="drop2")
-              li
-                a(href="http://mola.stanford.edu/atnbackenddocs/Animations/", target="_blank") mola.stanford.edu
+      //- .col-sm-6.col-md-4
+      //-   ul.nav.nav-pills.glider-resources
+      //-     li.dropdown(role="presentation")
+      //-       a#drop2.dropdown-toggle(href="#", data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false")
+      //-         | Data Visualization &amp; Access
+      //-       ul#menu2.dropdown-menu(aria-labelledby="drop2")
+      //-         li
+      //-           a(href="http://mola.stanford.edu/atnbackenddocs/Animations/", target="_blank") mola.stanford.edu
              
-      .col-sm-6.col-md-4
+      .col-sm-6.col-md-6
         ul.nav.nav-pills.glider-resources
           li.dropdown(role="presentation")
             a#drop3.dropdown-toggle(href="#", data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false")
@@ -57,12 +57,16 @@ block content
               li.divider(role="separator")
               li
                 a(href="https://ioos.noaa.gov/wp-content/uploads/2017/08/ATN-SG-1-Meeting_FINAL.pdf", target="_blank") ATN Steering Group Meeting, SG-1, June 5-6, 2017 Minutes
+              li.divider(role="separator")
+              li
+                a(href="/files/ATN.Article.pdf", target="_blank") Ocean Observations Using Tagged Animals
+              
 
-      .col-sm-6.col-md-4
+      .col-sm-6.col-md-6
         ul.nav.nav-pills.glider-resources
           li.dropdown(role="presentation")
             a#drop4.dropdown-toggle(href="#", data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false")
-              | Data Provider Tools
+              | Data Portal FAQs
             ul#menu4.dropdown-menu(aria-labelledby="drop4")
               li
                 a(href="http://oceanview.pfeg.noaa.gov/ATN_docs/#!/help", target="_blank") What do all the symbols mean? How do you control what tags are on the map?
