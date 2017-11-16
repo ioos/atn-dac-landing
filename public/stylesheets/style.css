@@ -318,5 +318,12 @@ div#helper-overlay:hover {
   max-height: 300px;
   overflow-y: scroll;
 }
-
-
+.logos > img {
+  width: 20%;
+  display: inline;
+  padding: 10px;
+}
+.logos {
+  display: block;
+  margin: auto;
+}
